@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/* header/banner section style start from here */
+header{
+    max-width: 1600px;
+    background-image: url('images/banner/banner2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px auto;
+}
+
+.banner-container{
+    display: flex;
+    max-width: 1150px;
+    margin: auto;
+    padding: 130px 10px;
+    box-sizing: border-box;
+    flex-direction: row-reverse;
+    text-align: right;
+    align-items: center;
+}
+
+.banner-content{
+    width: 45%;
+}
+
+.banner-heading{
+    font-size: 65px;
+    font-weight: 700;
+    padding: 15px 0px;
+}
+
+.banner-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+    padding: 15px 0px;
+}
+
+.banner-button{
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #F15B22;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 25px;
+    margin: 15px 0px;
+}/* banner section style end */
+
+
+
+
+/* about section */
+.about-me{
+    max-width: 1150px;
+    margin: 0px auto;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 0px;
+}
+.about-me-text{
+    width: 50%;
+}
+.about-me-text h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    padding: 15px 10px;
+}
+.about-me-text p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #444343;
+    padding: 15px;
+}
+
+.about-me-text button{
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #F15B22;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 25px;
+    margin: 15px;
+}
+
+.about-image{
+width: 40%;
+}
+.about-image img{
+width: 100%;
+border-radius: 100%;
+}
+/* main section section start */
+/* failures section start */
+.failure-container{
+    display: flex;
+    max-width: 1150px;
+    margin: auto;
+    padding: 65px 10px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.failure-image{
+    width: 50%;
+}
+.failure-image > img{
+    width: 90%;
+    border-radius: 10%;
+    
+}
+.failure-text-content{
+    width: 37%;
+    padding: 0 0 80px 10px;
+}
+.failure-heading{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    padding: 15px 0px;
+}
+
+.failure-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+    padding: 15px 0px;
+    line-height:26px ;
+}
+
+.failure-list{
+    display: flex;
+    padding: 2px;
+}
+.failure-list img{
+    width: 24px;
+    height: 24px;
+
+}
+.failure-list p{
+    font-size: 16px;
+    color: #444343;
+    font-weight: 400;
+}
+
+/* my plans section style */
+.plan-container{
+    max-width: 1150px;
+    margin: auto;
+    padding: 65px 10px;
+    text-align: center;
+}
+
+.plan-heading{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    padding: 15px 0px;
+}
+
+.my-plans{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+
+}
+
+.plan-list-item{
+    text-align: center;
+}
+
+.plan-item-heading{
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+    padding: 15px 0px;
+}
+.plan-description{
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
+/* end plan section */
+
+
+/* start overlay section style */
+.overlay-container{
+    background-image: url(images/watch.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 65px;
+    text-align: left;
+    position: relative;
+    border-radius: 10px;box-sizing: border-box;
+}
+.overlay-content-heading{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    padding: 15px 0px;
+    width: 90%;
+}
+.overlay-btn{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 35px;
+    color: #F15B22;
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+
+}
+.gradient-color{
+    background: linear-gradient(90deg, #F15B22 0%, #f15b2200 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.overlay-content{
+    position: relative;
+    z-index: 2;
+}
+
+footer{
+    max-width: 1600px;
+    margin: 130px auto 0px auto;
+    background-color: #151414;
+}
+.footer-container{
+    max-width: 1150px;
+    margin: auto;
+    padding: 120px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-section{
+    width: 40%;
+
+}
+.contact-section h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #F8F8F8;
+    padding: 15px 0px;
+}
+.contact-section p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding-bottom: 25px;
+}
+
+.contact-section img{
+    padding-right: 15px;
+}
+
+.subscribe-section{
+    width: 30%;
+}
+
+.subscribe-section h3{
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 15px 0px 30px 0px;
+}
+
+.subscribe-section input{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px;
+    border-radius:5px ;
+    border: 1px solid #FFFFFF;
+    background: none;
+}
+.subscribe-section button{
+    font-size: 20px;
+    font-weight: 600;
+    color: #F15B22;
+    background-color: #FFFFFF;
+    padding: 20px 35px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
